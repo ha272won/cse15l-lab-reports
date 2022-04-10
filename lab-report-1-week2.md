@@ -1,6 +1,7 @@
 ## Installing VScode
 ![Screen Shot 2022-04-09 at 7 45 02 PM](https://user-images.githubusercontent.com/103228431/162599064-65694736-95d9-475d-81ab-f970c70c1d5f.png)
  
+ Installing VS code will start from visiting the website. What you need is simply go on to the website 
 
 ## Remotely Connecting
 ![Screen Shot 2022-04-09 at 7 45 33 PM](https://user-images.githubusercontent.com/103228431/162599077-db018d45-7f77-4c28-ba04-0c2069de76aa.png)
