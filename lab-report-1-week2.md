@@ -26,4 +26,10 @@ After logging in, use 'ls' so the file can be stored in ieng computer.
 Using `ssh` command, save the key in the computer. They will require the password and after you enter that then it's all done. Once it is confirmed that the terminal printed the rendered image of key, then it is possible to login without typing the password.
 
 ## Optimizing Remote Running
+![Screen Shot 2022-04-18 at 5 20 15 PM](https://user-images.githubusercontent.com/103228431/163896675-95d012ff-316a-4286-a2df-d458d1fbaa20.png)
 
+First, edit the file and copy and replace it in the remote server by typing:
+`scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~`
+
+Complie and run the code by typing the follow code:
+`ssh cs15lsp22zz@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"`
