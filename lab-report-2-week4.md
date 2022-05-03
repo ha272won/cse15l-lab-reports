@@ -12,9 +12,5 @@
 ## Symptom of that failure-inducing input
 ![Screen Shot 2022-05-02 at 5 50 13 PM](https://user-images.githubusercontent.com/103228431/166389898-579d6f3b-931e-4c32-8307-5d19787d740f.png)
 
-Write 2-3 sentences describing the relationship between the bug, the
-symptom, and the failure-inducing input.
-
-java.lang.OutOfMemoryError: Java heap space
-
-This means that the code is in infinite loop. 
+## The relationship between the bug, the symptom, and the failure-inducing input
+A bug means that there is a computer program coding error. To solve this problem, many test cases are required because fewer inputs generally shorten execution time and reduce program status. This is why programmer uses the failure-inducing input. A bug that has not been detected causes the computer to show symptoms: the computer is in the infinite loop.
