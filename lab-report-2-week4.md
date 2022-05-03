@@ -11,3 +11,6 @@
 
 Write 2-3 sentences describing the relationship between the bug, the
 symptom, and the failure-inducing input.
+
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
