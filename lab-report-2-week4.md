@@ -4,9 +4,10 @@
 ![Screen Shot 2022-04-25 at 3 19 02 PM](https://user-images.githubusercontent.com/103228431/165184273-b9a4543f-7fa9-4c32-a75a-462930d69f6f.png)
 
 ## Link to the test file for a failure-inducing input
-[link1](https://github.com/ha272won/markdown-parser/blob/main/maketestfile2.md) [link2](https://github.com/ha272won/markdown-parser/blob/main/maketestfile3.md)
+[tester 1](https://github.com/ha272won/markdown-parser/blob/main/maketestfile2.md) [tester 2](https://github.com/ha272won/markdown-parser/blob/main/maketestfile3.md) [tester 3]https://github.com/ha272won/markdown-parser/blob/main/maketestfile3.md
 
 ## Symptom of that failure-inducing input
+![Screen Shot 2022-05-02 at 5 50 13 PM](https://user-images.githubusercontent.com/103228431/166389898-579d6f3b-931e-4c32-8307-5d19787d740f.png)
 
 Write 2-3 sentences describing the relationship between the bug, the
 symptom, and the failure-inducing input.
