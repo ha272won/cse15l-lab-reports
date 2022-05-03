@@ -7,7 +7,7 @@
 ## Link to the test file for a failure-inducing input
 [tester 1](https://github.com/ha272won/markdown-parser/blob/main/maketestfile2.md) 
 [tester 2](https://github.com/ha272won/markdown-parser/blob/main/maketestfile3.md) 
-[tester 3]https://github.com/ha272won/markdown-parser/blob/main/maketestfile3.md
+[tester 3](https://github.com/ha272won/markdown-parser/blob/main/maketestfile3.md)
 
 ## Symptom of that failure-inducing input
 ![Screen Shot 2022-05-02 at 5 50 13 PM](https://user-images.githubusercontent.com/103228431/166389898-579d6f3b-931e-4c32-8307-5d19787d740f.png)
