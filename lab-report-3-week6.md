@@ -9,8 +9,12 @@
 
 # Setup Github Access from ieng6
 ## Show where the public key you made is stored on Github and in your user account.
+On Github, go setting -> SSH and GPG keys -> click on the green button call 'New SSH key'. 
+![Screen Shot 2022-05-08 at 9 18 45 PM](https://user-images.githubusercontent.com/103228431/167339953-ed71a257-49d1-4a8c-98ea-d5b7188d43da.png)
 
 ## Show where the private key you made is stored on your user account (but not its contents) as a screenshot.
+![Screen Shot 2022-05-08 at 9 26 37 PM](https://user-images.githubusercontent.com/103228431/167340644-0f5603a2-003a-49fa-818e-94fb72be6a73.png)
+Using `vim`, open the config file and add github.
 
 ## Show running git commands to commit and push a change to Github while logged into your ieng6 account.
 
