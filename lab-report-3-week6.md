@@ -6,6 +6,7 @@
 ![Screen Shot 2022-05-05 at 7 48 10 PM](https://user-images.githubusercontent.com/103228431/167058778-841ff968-39e2-4d39-9503-e90b34118d86.png)
 
 ## Show an scp command copying a file to your account using just the alias you chose.
+![Screen Shot 2022-05-11 at 6 11 39 PM](https://user-images.githubusercontent.com/103228431/167972736-9af6064b-168f-47e2-b273-21ccf0b90cb1.png)
 
 # Setup Github Access from ieng6
 ## Show where the public key you made is stored on Github and in your user account.
