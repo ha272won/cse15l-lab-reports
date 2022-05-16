@@ -36,7 +36,7 @@ This shows that it has been successfully pushed.
 
 ## Show a link for the resulting commit.
 
-[reult](https://github.com/ha272won/week5skilldemo/commit/06f388e7f5aec89971fee2ddb7e2be00d9d4545a)
+[result](https://github.com/ha272won/week5skilldemo/commit/06f388e7f5aec89971fee2ddb7e2be00d9d4545a)
 
 # Copy whole directories with scp -r
 ## Show copying your whole markdown-parse directory to your ieng6 account.
