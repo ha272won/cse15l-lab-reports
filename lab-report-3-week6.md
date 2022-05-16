@@ -11,7 +11,7 @@ Only typing `ssh ieng6`, it shows that it is successfully logged in.
 ## Show an scp command copying a file to your account using just the alias you chose.
 ![Screen Shot 2022-05-11 at 6 11 39 PM](https://user-images.githubusercontent.com/103228431/167972736-9af6064b-168f-47e2-b273-21ccf0b90cb1.png)
 
-Not only `ssh`, but also `scp` command allows us to access to the remote server. 
+Not only `ssh`, but also `scp` command allows us to copy the file to the remote server. 
 
 # Setup Github Access from ieng6
 ## Show where the public key you made is stored on Github and in your user account.
