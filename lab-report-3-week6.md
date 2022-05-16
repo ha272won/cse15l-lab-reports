@@ -18,8 +18,15 @@ On Github, go setting -> SSH and GPG keys -> click on the green button call 'New
 Using `vim`, open the config file and add github.
 
 ## Show running git commands to commit and push a change to Github while logged into your ieng6 account.
+commit
+![Screen Shot 2022-05-14 at 7 47 42 PM](https://user-images.githubusercontent.com/103228431/168663809-996db5ce-cd6b-46ee-908d-719f7af3dac8.png)
+
+push
+![Screen Shot 2022-05-16 at 11 59 59 AM](https://user-images.githubusercontent.com/103228431/168663888-2077e9ca-5f34-4de1-8a88-e30fcecbf8fd.png)
 
 ## Show a link for the resulting commit.
+
+[reult](https://github.com/ha272won/week5skilldemo/commit/06f388e7f5aec89971fee2ddb7e2be00d9d4545a)
 
 # Copy whole directories with scp -r
 ## Show copying your whole markdown-parse directory to your ieng6 account.
