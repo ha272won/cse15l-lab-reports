@@ -17,10 +17,11 @@ Not only `ssh`, but also `scp` command allows us to copy the file to the remote 
 ## Show where the public key you made is stored on Github and in your user account.
 On Github, go setting -> SSH and GPG keys -> click on the green button call 'New SSH key'. 
 ![Screen Shot 2022-05-08 at 9 18 45 PM](https://user-images.githubusercontent.com/103228431/167339953-ed71a257-49d1-4a8c-98ea-d5b7188d43da.png)
+This shows that the key that allows to access to the remote server has been added to the github.
 
 ## Show where the private key you made is stored on your user account (but not its contents) as a screenshot.
 ![Screen Shot 2022-05-08 at 9 26 37 PM](https://user-images.githubusercontent.com/103228431/167340644-0f5603a2-003a-49fa-818e-94fb72be6a73.png)
-Using `vim`, open the config file and add github.
+Using `vim`, open the config file and add github. Private key is located in the same file that I used in section 1.
 
 ## Show running git commands to commit and push a change to Github while logged into your ieng6 account.
 commit
@@ -28,6 +29,8 @@ commit
 
 push
 ![Screen Shot 2022-05-16 at 11 59 59 AM](https://user-images.githubusercontent.com/103228431/168663888-2077e9ca-5f34-4de1-8a88-e30fcecbf8fd.png)
+
+This shows that it has been successfully pushed.
 
 ## Show a link for the resulting commit.
 
