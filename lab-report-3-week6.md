@@ -42,6 +42,8 @@ This shows that it has been successfully pushed.
 ## Show copying your whole markdown-parse directory to your ieng6 account.
 `scp -r /Users/alien/Documents/GitHub/markdown-parser ieng6:~/markdown-parser`
 This command is used to copy markdown-parser. 
+![Screen Shot 2022-05-16 at 4 36 11 PM](https://user-images.githubusercontent.com/103228431/168699052-a5fb63d1-8cf2-4186-b18e-6ed5a184701b.png)
+
 
 ## Show logging into your ieng6 account after doing this and compiling and running the tests for your repository.
 The processes listed : copying, compiling and running can be commited by typing this command: 
