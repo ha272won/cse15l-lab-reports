@@ -46,8 +46,18 @@ This command is used to copy markdown-parser.
 
 
 ## Show logging into your ieng6 account after doing this and compiling and running the tests for your repository.
-![Screen Shot 2022-05-16 at 6 52 13 PM](https://user-images.githubusercontent.com/103228431/168712215-98ae9626-0ba3-47dd-805c-5f4c1e73bdb5.png)
+
+![Screen Shot 2022-05-16 at 7 38 20 PM](https://user-images.githubusercontent.com/103228431/168717066-20b3e7dd-edf8-41b9-8147-ef10f83d7afc.png)
+![Screen Shot 2022-05-16 at 7 38 26 PM](https://user-images.githubusercontent.com/103228431/168717069-ea6a59c2-b8de-42ca-9556-4014a90e67f6.png)
 
 ## Show (like in the last step of the first lab) combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
 The processes listed : copying, compiling and running can be commited by typing this command: 
 `scp -r /Users/alien/Documents/GitHub/markdown-parser ieng6:~/markdown-parser; ssh ieng6 'cd markdown-parser; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac MarkdownParse.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java MarkdownParseTest'`
+
+
+![Screen Shot 2022-05-16 at 7 39 51 PM](https://user-images.githubusercontent.com/103228431/168717454-96a3f255-af9b-485e-ade5-3ae33be2973a.png)
+![Screen Shot 2022-05-16 at 7 40 14 PM](https://user-images.githubusercontent.com/103228431/168717458-a66b6b3b-c92a-46a5-9b50-fd9460cb6bf1.png)
+![Screen Shot 2022-05-16 at 7 40 22 PM](https://user-images.githubusercontent.com/103228431/168717478-27c6ef55-0bd0-4e8b-8012-2b651bc0a4aa.png)
+![Screen Shot 2022-05-16 at 7 41 11 PM](https://user-images.githubusercontent.com/103228431/168717481-77819310-1514-49cb-8c4c-faa66c159d65.png)
+
+
