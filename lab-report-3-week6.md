@@ -52,7 +52,7 @@ This command is used to copy markdown-parser.
 
 ## Show (like in the last step of the first lab) combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
 The processes listed : copying, compiling and running can be commited by typing this command: 
-`scp -r /Users/alien/Documents/GitHub/markdown-parser ieng6:~/markdown-parser; ssh ieng6 'cd markdown-parser; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac MarkdownParse.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java MarkdownParseTest'`
+`scp -r /Users/alien/Documents/GitHub/markdown-parser ieng6:~/markdown-parser; ssh ieng6 'cd markdown-parser; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac MarkdownParse.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest'`
 
 
 ![Screen Shot 2022-05-16 at 7 39 51 PM](https://user-images.githubusercontent.com/103228431/168717454-96a3f255-af9b-485e-ade5-3ae33be2973a.png)
