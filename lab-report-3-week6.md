@@ -46,7 +46,8 @@ This command is used to copy markdown-parser.
 
 
 ## Show logging into your ieng6 account after doing this and compiling and running the tests for your repository.
+![Screen Shot 2022-05-16 at 6 52 13 PM](https://user-images.githubusercontent.com/103228431/168712215-98ae9626-0ba3-47dd-805c-5f4c1e73bdb5.png)
 
 ## Show (like in the last step of the first lab) combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
 The processes listed : copying, compiling and running can be commited by typing this command: 
-`scp -r /Users/alien/Documents/GitHub/markdown-parser ieng6:~/markdown-parser; ssh ieng6 cd markdown-parser; javac MarkdownParse.java; java MarkdownParse maketestfile1.md`
+`scp -r /Users/alien/Documents/GitHub/markdown-parser ieng6:~/markdown-parser; ssh ieng6 'cd markdown-parser; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac MarkdownParse.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java MarkdownParseTest'`
