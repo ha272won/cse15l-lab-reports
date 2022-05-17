@@ -50,3 +50,5 @@ The processes listed : copying, compiling and running can be commited by typing 
 `scp -r /Users/alien/Documents/GitHub/markdown-parser ieng6:~/markdown-parser; ssh ieng6 cd markdown-parser; javac MarkdownParse.java; java MarkdownParse maketestfile1.md`
 
 ## Show (like in the last step of the first lab) combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
+
+
