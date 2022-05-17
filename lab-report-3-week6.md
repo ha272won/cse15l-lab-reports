@@ -27,7 +27,7 @@ Using `vim`, open the config file and add github. Private key is located in the 
 commit
 ![Screen Shot 2022-05-14 at 7 47 42 PM](https://user-images.githubusercontent.com/103228431/168663809-996db5ce-cd6b-46ee-908d-719f7af3dac8.png)
 
-To commit it, I have copied the 'check.txt' file to the existed repository.
+Commit the file with the command `git command -m "message"` This is to check whether the file has successfully commited & pushed after all.
 
 push
 ![Screen Shot 2022-05-16 at 11 59 59 AM](https://user-images.githubusercontent.com/103228431/168663888-2077e9ca-5f34-4de1-8a88-e30fcecbf8fd.png)
