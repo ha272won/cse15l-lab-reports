@@ -4,6 +4,9 @@ our markdown-parse repository [link](https://github.com/szreik/markdown-parser)
 the one we reviewed in week 7 [link](https://github.com/zayverrulez/markdown-parser)
 
 ## Decide on what it should produce (i.e., expected output) by using either VScode preview or the CommonMark demo site
+![Screen Shot 2022-05-16 at 8 03 08 PM](https://user-images.githubusercontent.com/103228431/168719852-10f7b8a4-195c-4720-ae72-73ac6b5de602.png)
+![Screen Shot 2022-05-16 at 8 03 20 PM](https://user-images.githubusercontent.com/103228431/168719844-22baa4f9-926f-4ed6-b1c4-ed080b84e132.png)
+![Screen Shot 2022-05-16 at 8 03 35 PM](https://user-images.githubusercontent.com/103228431/168719849-d4f5d029-e1ce-4a17-8a0f-f7a0de243e11.png)
 
 ## Showing the code in MarkdownParseTest.java for how you turned it into a test
 
