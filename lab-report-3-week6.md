@@ -41,7 +41,7 @@ This shows that it has been successfully pushed. To process this, command `git p
 # Copy whole directories with scp -r
 ## Show copying your whole markdown-parse directory to your ieng6 account.
 `scp -r /Users/alien/Documents/GitHub/markdown-parser ieng6:~/markdown-parser`
-This command is used to copy markdown-parser. 
+This command is used to copy markdown-parser. Run this command on local because scp command cannot be processed on remote server.
 
 ![Screen Shot 2022-05-16 at 7 44 38 PM](https://user-images.githubusercontent.com/103228431/168717854-84d17685-a2c3-4d02-8e3d-b3e9c34d7a13.png)
 ![Screen Shot 2022-05-16 at 7 44 50 PM](https://user-images.githubusercontent.com/103228431/168717861-4f90ffd5-8586-4d6b-9e29-df4fc560126c.png)
@@ -55,10 +55,13 @@ This command is used to copy markdown-parser.
 ![Screen Shot 2022-05-16 at 7 38 20 PM](https://user-images.githubusercontent.com/103228431/168717066-20b3e7dd-edf8-41b9-8147-ef10f83d7afc.png)
 ![Screen Shot 2022-05-16 at 7 38 26 PM](https://user-images.githubusercontent.com/103228431/168717069-ea6a59c2-b8de-42ca-9556-4014a90e67f6.png)
 
+This is similar to what we have done in skill demonstration 1, use that command to commit and complie.
+
 ## Show (like in the last step of the first lab) combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
 The processes listed : copying, compiling and running can be commited by typing this command: 
 `scp -r /Users/alien/Documents/GitHub/markdown-parser ieng6:~/markdown-parser; ssh ieng6 'cd markdown-parser; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac MarkdownParse.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest'`
 
+junit is needed to call the lib files.
 
 ![Screen Shot 2022-05-16 at 7 39 51 PM](https://user-images.githubusercontent.com/103228431/168717454-96a3f255-af9b-485e-ade5-3ae33be2973a.png)
 ![Screen Shot 2022-05-16 at 7 40 14 PM](https://user-images.githubusercontent.com/103228431/168717458-a66b6b3b-c92a-46a5-9b50-fd9460cb6bf1.png)
