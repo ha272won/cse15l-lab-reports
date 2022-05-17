@@ -32,7 +32,7 @@ To commit it, I have copied the 'check.txt' file to the existed repository.
 push
 ![Screen Shot 2022-05-16 at 11 59 59 AM](https://user-images.githubusercontent.com/103228431/168663888-2077e9ca-5f34-4de1-8a88-e30fcecbf8fd.png)
 
-This shows that it has been successfully pushed.
+This shows that it has been successfully pushed. To process this, command `git push origin main` is used.
 
 ## Show a link for the resulting commit.
 
