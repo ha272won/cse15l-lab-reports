@@ -10,6 +10,12 @@ the one we reviewed in week 7 [link](https://github.com/zayverrulez/markdown-par
 
 ## Showing the code in MarkdownParseTest.java for how you turned it into a test
 
+This is a code for MarkdownParseTest.java
+![Screen Shot 2022-05-21 at 9 45 37 PM](https://user-images.githubusercontent.com/103228431/169679136-39592418-eb0f-443e-a5bb-a5fb58d3334f.png)
+
+To process the test, make makefile.
+![Screen Shot 2022-05-21 at 9 42 51 PM](https://user-images.githubusercontent.com/103228431/169679101-e88265cc-cf40-4558-8334-6be436f3f572.png)
+
 ## For your implementation, the corresponding output when running the tests; if it passed, say so. If it didn’t pass, show the specific part of the JUnit output that shows the test failure.
 
 
