@@ -1,6 +1,6 @@
 ## A link to your markdown-parse repository and a link to the one you reviewed in week 7
 
-our markdown-parse repository [link](https://github.com/szreik/markdown-parser)
+My markdown-parse repository [link](https://github.com/ha272won/markdown-parser)
 the one we reviewed in week 7 [link](https://github.com/zayverrulez/markdown-parser)
 
 ## Decide on what it should produce (i.e., expected output) by using either VScode preview or the CommonMark demo site
