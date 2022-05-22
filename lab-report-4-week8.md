@@ -26,7 +26,7 @@ To process the test, make makefile.
 ## Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
 
 Yes.
-Within the area encapsulated with a backticks and what is in the bracket must be treated as a link.
+Within the area encapsulated with a backticks and what is in the bracket must be treated as a link. For those URL with bracket but the program cannot recognise, this requires me to add a condition in MarkdownParse.java
 
 ## Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
 
