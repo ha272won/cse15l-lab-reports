@@ -6,6 +6,23 @@
 [test-file]()
 
 ## Describe which implementation is correct, or neither if both give the wrong output
+Test-file #487
+provided repository
+test-files/487.md:
+[]
+
+my repository
+test-files/487.md
+[/my uri]
+
+Test-file #504
+provided repositoy
+test-files/504.md:
+[]
+
+my repository
+test-files/504.md
+[/url "title", /url 'title', /url (title]
 
 ## Indicate both actual outputs (provide screenshots) and also what the expected output is (list the links that are expected in the output).
 
