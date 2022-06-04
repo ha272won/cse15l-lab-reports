@@ -1,6 +1,9 @@
 ## How you found the tests with different results?
 
+Modify the bash script as below:
 ![Screen Shot 2022-05-31 at 12 07 16 AM](https://user-images.githubusercontent.com/103228431/171113911-fd044259-5df8-4844-955e-fa262130868a.png)
+
+run `bash script.sh > results.txt` after compiling the MarkdownParser.java. This allows to save the result file in the repository. Also, do the same for my markdownparse repository. I manually compared the result.
 
 ## Provide a link to the test-file with different-results
 [test-file 487](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/487.md)
