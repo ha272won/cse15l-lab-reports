@@ -1,35 +1,35 @@
-## How you found the tests with different results (Did you use vimdiff on the results of running a bash for loop? Did you search through manually? Did you use some other programmatic idea?)
+## How you found the tests with different results?
 
 ![Screen Shot 2022-05-31 at 12 07 16 AM](https://user-images.githubusercontent.com/103228431/171113911-fd044259-5df8-4844-955e-fa262130868a.png)
 
-## Provide a link to the test-file with different-results (in the provided repository or your repository , either is fine)
+## Provide a link to the test-file with different-results
 [test-file 487](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/487.md)
 [test-file 504](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/504.md)
 
 ## Describe which implementation is correct, or neither if both give the wrong output
+
+For both #487 and #504, the provided repository gives the right output. 
+
+#487 :
+
+#504 :
+
+## Indicate both actual outputs (provide screenshots) and also what the expected output is (list the links that are expected in the output).
 Test-file #487
 provided repository
-`test-files/487.md:
-[]`
 
 my repository
-`test-files/487.md
-[/my uri]`
+
 
 Test-file #504
 provided repositoy
-`test-files/504.md:
-[]`
+
 
 my repository
-`test-files/504.md
-[/url "title", /url 'title', /url (title]`
 
 
-
-## Indicate both actual outputs (provide screenshots) and also what the expected output is (list the links that are expected in the output).
-For the #487, the provided repository gives the right output.
-For the #504, the 
+For #487 : we expect
+For #504 : we expect
 
 ## Decide on what it should produce (i.e., expected output) by using either VScode preview or the CommonMark demo site.
 For test-file 487.md:
