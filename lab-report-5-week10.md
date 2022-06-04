@@ -7,6 +7,7 @@
 
 ## Describe which implementation is correct, or neither if both give the wrong output
 Test-file #487
+
 ![Screen Shot 2022-06-04 at 4 27 18 PM](https://user-images.githubusercontent.com/103228431/172028683-120236bb-dfa2-4345-86b0-d8cd344eebf6.png)
 
 
@@ -19,6 +20,7 @@ my repository
 [/my uri]`
 
 Test-file #504
+
 ![Screen Shot 2022-06-04 at 4 27 10 PM](https://user-images.githubusercontent.com/103228431/172028680-c91209d8-90d7-4dc5-953c-3ba711d8df4c.png)
 
 provided repositoy
@@ -34,5 +36,10 @@ my repository
 ## Indicate both actual outputs (provide screenshots) and also what the expected output is (list the links that are expected in the output).
 
 ## Decide on what it should produce (i.e., expected output) by using either VScode preview or the CommonMark demo site.
+For test-file 487.md:
+![Screen Shot 2022-06-04 at 4 28 58 PM](https://user-images.githubusercontent.com/103228431/172028728-64ca2780-9271-4d62-a51f-738527827eb5.png)
+
+For test-file 504.md:
+![Screen Shot 2022-06-04 at 4 29 10 PM](https://user-images.githubusercontent.com/103228431/172028730-db6d58ec-c9aa-4a8b-9a70-c292ef50ded4.png)
 
 ## For the implementation that’s not correct (or choose one if both are incorrect), describe the bug (the problem in the code) in about 2-3 sentences. You don’t have to provide a fix, but you should be specific about what is wrong with the program, and show the code that should be fixed (Provide a screenshot of code and highlight where the change needs to be made).
