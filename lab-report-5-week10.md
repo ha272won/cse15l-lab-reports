@@ -7,6 +7,9 @@
 
 ## Describe which implementation is correct, or neither if both give the wrong output
 Test-file #487
+![Screen Shot 2022-06-04 at 4 27 18 PM](https://user-images.githubusercontent.com/103228431/172028683-120236bb-dfa2-4345-86b0-d8cd344eebf6.png)
+
+
 provided repository
 `test-files/487.md:
 []`
@@ -16,6 +19,8 @@ my repository
 [/my uri]`
 
 Test-file #504
+![Screen Shot 2022-06-04 at 4 27 10 PM](https://user-images.githubusercontent.com/103228431/172028680-c91209d8-90d7-4dc5-953c-3ba711d8df4c.png)
+
 provided repositoy
 `test-files/504.md:
 []`
@@ -23,6 +28,8 @@ provided repositoy
 my repository
 `test-files/504.md
 [/url "title", /url 'title', /url (title]`
+
+
 
 ## Indicate both actual outputs (provide screenshots) and also what the expected output is (list the links that are expected in the output).
 
