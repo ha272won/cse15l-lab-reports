@@ -13,7 +13,7 @@ run `bash script.sh > results.txt` after compiling the MarkdownParser.java. This
 
 For both #487 and #504, the provided repository gives the right output. 
 
-#487 :
+#487 : It shows that my code does not check the characters between parentheses that manage the link. In the case of #407, the special character: / is inserted, but this special character cannot be filtered out and are exposed in my code.
 
 #504 :
 
@@ -50,8 +50,7 @@ My MarkdownParser.java is like below:
 
 
 #483
-what is wrong with the program
-show the code that should be fixed
+To correct this, the code in the if statement must be modified. Instead of directly adding a substring to a variable to be returned within an if statement, we can fix the code in #487 if we add a condition to the temporary variable to store the substring for further verification.
 
 #504
 what is wrong with the program
