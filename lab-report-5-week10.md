@@ -42,3 +42,7 @@ For test-file 504.md:
 ![Screen Shot 2022-06-04 at 4 29 10 PM](https://user-images.githubusercontent.com/103228431/172028730-db6d58ec-c9aa-4a8b-9a70-c292ef50ded4.png)
 
 ## For the implementation that’s not correct (or choose one if both are incorrect), describe the bug (the problem in the code) in about 2-3 sentences. You don’t have to provide a fix, but you should be specific about what is wrong with the program, and show the code that should be fixed (Provide a screenshot of code and highlight where the change needs to be made).
+
+#483
+
+#504
