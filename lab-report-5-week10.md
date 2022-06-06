@@ -49,4 +49,4 @@ My MarkdownParser.java is like below:
 ![Screen Shot 2022-06-04 at 9 23 38 PM](https://user-images.githubusercontent.com/103228431/172034964-0f5985ad-9dba-4b86-b470-b60322878db2.png)
 
 
-For both #483 and #504, to correct this, the code in the if statement must be modified. Instead of directly adding a substring to a variable to be returned within an if statement, we can fix the code in #487 if we add a condition to the temporary variable to store the substring for further verification
+For both #483 and #504, to correct this, the code in the if statement must be modified. Instead of directly adding a substring to a variable to be returned within an if statement, we can fix the code in #487 if we add a condition to the temporary variable to store the substring for further verification.
