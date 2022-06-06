@@ -15,7 +15,7 @@ For both #487 and #504, the provided repository gives the right output.
 
 #487 : It shows that my code does not check the characters between parentheses that manage the link. In the case of #407, the special character: / is inserted, but this special character cannot be filtered out and are exposed in my code.
 
-#504 :
+#504 : Same as #487, my code cannot check special character. When #487 has a problem because it cannot detect '/', for #504, it cannot detect other characters too: '""', '''', '()'. 
 
 ## Indicate both actual outputs (provide screenshots) and also what the expected output is (list the links that are expected in the output).
 Test-file #487
@@ -49,9 +49,4 @@ My MarkdownParser.java is like below:
 ![Screen Shot 2022-06-04 at 9 23 38 PM](https://user-images.githubusercontent.com/103228431/172034964-0f5985ad-9dba-4b86-b470-b60322878db2.png)
 
 
-#483
-To correct this, the code in the if statement must be modified. Instead of directly adding a substring to a variable to be returned within an if statement, we can fix the code in #487 if we add a condition to the temporary variable to store the substring for further verification.
-
-#504
-what is wrong with the program
-show the code that should be fixed
+For both #483 and #504, to correct this, the code in the if statement must be modified. Instead of directly adding a substring to a variable to be returned within an if statement, we can fix the code in #487 if we add a condition to the temporary variable to store the substring for further verification
