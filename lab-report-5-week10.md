@@ -13,9 +13,9 @@ run `bash script.sh > results.txt` after compiling the MarkdownParser.java. This
 
 For both #487 and #489, the provided repository gives the right output. 
 
-#487 : It shows that my code does not check the characters between parentheses that manage the link. In the case of #407, the special character: / is inserted, but this special character cannot be filtered out and are exposed in my code.
+#487 : My implemetation is incorrect. It shows that my code does not check the characters between parentheses that manage the link. In the case of #407, the special character: / is inserted, but this special character cannot be filtered out and are exposed in my code.
 
-#489 : This shhows that my code do not detect that there's a eneter in the link. As it shows on the screenshot, the output has started the new line - which should be filtered in the code and produce the actual link for the output.
+#489 : My implementation is incorrect as this shhows that my code do not detect that there's a eneter in the link. As it shows on the screenshot, the output has started the new line - which should be filtered in the code and produce the actual link for the output.
 
 ## Indicate both actual outputs (provide screenshots) and also what the expected output is (list the links that are expected in the output).
 
@@ -48,6 +48,6 @@ My MarkdownParser.java is like below:
 ![Screen Shot 2022-06-04 at 9 22 08 PM](https://user-images.githubusercontent.com/103228431/172034952-a25e84ef-fa9d-463e-94a0-b9c28377ebef.png)
 ![Screen Shot 2022-06-04 at 9 23 38 PM](https://user-images.githubusercontent.com/103228431/172034964-0f5985ad-9dba-4b86-b470-b60322878db2.png)
 
-For #487,to correct this, the code in the if statement must be modified. Instead of directly adding a substring to a variable to be returned within an if statement, we can fix the code in #487 if we add a condition to the temporary variable to store the substring for further verification.
+For #487, to correct this, the code in the if statement must be modified. Instead of directly adding a substring to a variable to be returned within an if statement, we can fix the code in #487 if we add a condition to the temporary variable to store the substring for further verification.
 
-For #489, to correct this, the code should have if statement which detects the new line. This can be done with the if statement by checking whether there's an enter in the link. By adding this verification, code will detect which file contains the enter. If we try to make this file to return the actual link, then this code will be fixed. This is added as a new condition in MarkdownParser.java.
+For #489, to correct this, the code should have if statement which detects the new line. This can be done with the if statement by checking whether there's an enter in the link. By adding this verification, code will detect which file contains the enter. If we try to make this file to return the actual link, then this code will be fixed. 
