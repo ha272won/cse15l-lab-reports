@@ -50,4 +50,4 @@ My MarkdownParser.java is like below:
 
 For #487, to correct this, the code in the if statement must be modified. Instead of directly adding a substring to a variable to be returned within an if statement, we can fix the code in #487 if we add a condition to the temporary variable to store the substring for further verification.
 
-For #489, to correct this, the code should have if statement which detects the new line. This can be done with the if statement by checking whether there's an enter in the link. By adding this verification, code will detect which file contains the enter. If we try to make this file to return the actual link, then this code will be fixed. 
+For #489, to correct this, the code should have if statement which detects the new line. This can be done with adding new if statement by checking whether there's an enter in the link. By adding this verification, code will detect which file contains the enter. If we try to make this file to return the actual link, then this code will be fixed. 
